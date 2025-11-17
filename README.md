@@ -1,7 +1,0 @@
-#include<stdio.h>
-main()
-{ int  a=18;
-float b=12.77;
-a=(int)b;
-printf("value of a =%d",a);
-}
