@@ -1,0 +1,16 @@
+#include<stdio.h>
+int sicalculation(){
+    int p,t,r,si;
+    printf("Enter your principle ammount\n");
+    scanf("%d",&p);
+    printf("Enter the no of years\n");
+    scanf("%d",&t);
+    printf("Enter rate of intrest\n");
+    scanf("%d",&r);
+    si=(p*t*r)/100;
+    printf("The simple intrest is %d\n",si);
+}
+int main(){
+    sicalculation();
+}
+ 
