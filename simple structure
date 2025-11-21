@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+struct rose{
+    int pen;
+    float gold;
+    char marks[10];
+};
+struct rose r;
+printf("enter pen amount\n");
+scanf("%d",&r.pen);
+printf("enter gold amount\n");
+scanf("%f",&r.gold);
+printf("enter marks amount\n ");
+scanf("%s",&r.marks);
+printf("%d %f %s",r.pen,r.gold,r.marks);
+}
