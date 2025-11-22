@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+union rose {
+int age;
+float marks;
+};
+union rose r;
+r.age=10;
+printf("%d\n",r.age);
+r.marks=10.4;
+printf("%f\n",r.marks);
+}
